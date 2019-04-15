@@ -3,12 +3,21 @@
 Example base objects to recieve
 
 {
-    headers: ["strs"...],
+    titles: ["strs"...],
     hasSubMenu: false,
-    subMenus: [["i","have","menus"],[]],
+    subTitles: [["i","have","titles"],[]],
     rgbaColor: "rgba(0,0,0,0)",
-    
+    headerStyle: "detached-rounded","attached-square","detached-square"
 
 }
 */
 
+//create div in js, generate innerelements as text.
+function generateHeader(props){
+    let header = document.createElement("div");
+
+
+    props.titles.forEach((titles)=>{
+
+    })
+}
